@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle de Persona</title>
+</head>
+<body>
+<h1>Datos de la persona generada</h1>
+<ul>
+    <li><b>Nombre:</b> <span th:text="${persona.nombre}"></span></li>
+    <li><b>Apellidos:</b> <span th:text="${persona.apellidos}"></span></li>
+    <li><b>DNI:</b> <span th:text="${persona.dni}"></span></li>
+    <li><b>Edad:</b> <span th:text="${persona.edad}"></span> años</li>
+</ul>
+<br>
+<a href="/">Volver al inicio</a>
+</body>
+</html>
